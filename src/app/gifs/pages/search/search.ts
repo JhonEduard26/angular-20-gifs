@@ -7,7 +7,6 @@ import { Gif } from '../../interfaces/gif-interface';
   selector: 'app-search',
   imports: [List],
   templateUrl: './search.html',
-  styles: ``,
 })
 export class Search {
   protected readonly giphyService = inject(Giphy);
