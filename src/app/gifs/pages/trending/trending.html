@@ -2,7 +2,7 @@
 
 <div
   class="h-screen overflow-y-auto grid grid-cols-2 md:grid-cols-4 gap-4"
-  (scroll)="onScroll($event)"
+  (scroll)="onScroll()"
   #groupDiv
 >
   @for (gifs of gifService.trendingGifsGroup(); track $index) {
